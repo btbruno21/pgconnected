@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png"></img>
+            <ul>
+                <li><a href="index.html">PG Connected</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="principal">
+                <ul>
+                    <li><a href="produto.html">Produtos</a></li>
+                    <li><a href="mapa.html">Mapa</a></li>
+                    <li><a href="chat.html"><img src="chat.png" class="chat" alt="Chat" /></a></li>
+                    <li><a href="carrinho.html"><img src="carrinho.png" class="carrinho" alt="Carrinho" /></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="cart-container">
+        <div class="cart-items">
+            <h2>Itens no Carrinho</h2>
+
+            <div class="cart-item">
+                <div class="produtos-car">
+                <img src="massinha.png" alt="Massinha de Modelar">
+                </div>
+                <div class="item-details">
+                    <p class="item-name">Massinha de Modelar com 6 cores</p>
+                    <p class="item-price">R$ 22,50</p>
+                    <div class="venda">
+                    <h4>Vendido por:</h4><li><a href="lojinha.html">Lojinha Arco-Íris</a></li>
+                </div>
+                    <input type="number" value="5" class="item-quantity">
+                    <button class="remove-item">Remover</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <div class="produtos-car">
+                <img src="lampada.png" alt="Lâmpada de Led">
+            </div>
+                <div class="item-details">
+                    <p class="item-name">Lâmpada de Led</p>
+                    <p class="item-price">R$ 14,90</p>
+                    <div class="venda">
+                    <h4>Vendido por:</h4><li><a href="#">Luz & Brilho</a></li>
+                </div>
+                    <input type="number" value="1" class="item-quantity">
+                    <button class="remove-item">Remover</button>
+                </div>
+            </div>
+
+        <div class="cart-item">
+            <div class="produtos-car">
+            <img src="pilha-rec.png" alt="Pilha Recarregável">
+        </div>
+            <div class="item-details">
+                <p class="item-name">Pilha Recarregável</p>
+                <p class="item-price">R$ 77,00</p>
+                <div class="venda">
+                <h4>Vendido por:</h4><li><a href="#">TechMaster</a></li>
+            </div>
+                <input type="number" value="2" class="item-quantity">
+                <button class="remove-item">Remover</button>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="cart-summary">
+            <h3>Resumo da Compra</h3>
+            <p>Total: <span class="total-price">R$ 114,40</span></p>
+            <button class="checkout-button">Finalizar Compra</button>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    </body>
+    </html>
